@@ -285,11 +285,13 @@ p {
     font-size:1em;
 }
 .wrapper table, th {
+    font-family: leaguespartan-bold;
     text-align:left;
-    font-size: 1.1em;
+    font-size: 1em;
     padding-bottom:0;
 }
 .wrapper table, td{
+    font-family: Poppins-Regular;
     font-size: 1em;
 }
 
