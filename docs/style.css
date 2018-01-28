@@ -1,12 +1,17 @@
 /* ----------------------------- fonts--------------------------------- */
 @font-face {
     font-family: Poppins-Regular;
-    src: url('fonts/poppins/Poppins-Regular.ttf');
+    src: url('fonts/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: Poppins-Bold;
-    src: url('fonts/poppins/Poppins-Bold.ttf');
+    src: url('fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: leaguespartan-bold;
+    src: url('fonts/leaguespartan-bold.ttf');
 }
 
 /*--------------------------for all pages------------------------------*/
@@ -149,12 +154,11 @@
 #menubar li a {
     display: block;
     text-decoration: none;
-    display: block;
     margin: 0px;
     border: 0px;
     padding: 10px 24px;
-    font-size:2em;
-    font-family: Poppins-Regular;
+    font-size:1.8em;
+    font-family: leaguespartan-bold;
     text-align: center;
 }
 /*menu links such as "galleries" on hover */
@@ -192,11 +196,9 @@
 /*active link*/
 #menubar .active{
     background-color: #fff952;
-    font-family: Poppins-Bold;
     color:#333333;
 }
 #menubar .active:hover{
-    font-size:2em;
     background-color: #fff952;
     color:#333333;
 }
@@ -228,6 +230,7 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-family: leaguespartan-bold;
     margin: 0px;
 }
 
@@ -238,7 +241,7 @@ p {
     margin: 0px;
 }
 
-/*------------------------- image slide show on base----------------*/
+/*------------------------- image slide show on index page----------------*/
 
 @keyframes fade {
     0%   { opacity: 0; }
@@ -265,9 +268,7 @@ p {
 .fadein img:nth-child(5) { animation-delay: 20s; }
 
 
-
-
-/*-------------------------- table_container for galleries and shows------------------------*/
+/*------------------- table_container for table of shows and list galleries-------------*/
 
 .wrapper img{
     margin:0em;
@@ -295,7 +296,6 @@ p {
 .wrapper td:last-of-type{
     padding-bottom:3em;
 }
-
 
 /*-------------------------- grid of artists---------------------------------*/
 .row {
@@ -370,7 +370,7 @@ p {
 /*-------------------contact--------------------*/
 .contact_title {
     display: block;
-    font-family: Poppins-Bold;
+    font-family: leaguespartan-bold;
     font-size: 2.5em;
     color: #444444;
     line-height: 1.2;
@@ -392,7 +392,7 @@ p {
     display: block;
     width: 100%;
     background: transparent;
-    font-family: Poppins-Medium;
+    font-family: Poppins-Regular;
     font-size: 1em;
     color: #111111;
     line-height: 1.2;
@@ -411,7 +411,7 @@ p {
     width: 30%;
     height: 50px;
     
-    font-family: Poppins-Medium;
+    font-family: Poppins-Regular;
     font-size: 1.5em;
     color: #fff;
     line-height: 1.2;
