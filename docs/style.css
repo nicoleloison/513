@@ -296,6 +296,8 @@ p {
 .wrapper td:last-of-type{
     padding-bottom:3em;
 }
+.f{
+    list-style-image: url('images/cyl1.jpg');}
 
 /*-------------------------- grid of artists---------------------------------*/
 .row {
